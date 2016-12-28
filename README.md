@@ -1,5 +1,6 @@
 # b2b-view
 1、git clone https://github.com/yonghuisd/b2b-view.git
+
 2、安装node 5.10版本.
 3、全局安装webpack
 4、打开cmd,切换到代码根目录
