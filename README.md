@@ -17,18 +17,20 @@
 
 9、http://localhost:8080/test 模板引擎输出
 
-10、http://localhost:8080/page       React 服务器渲染
+10、http://localhost:8080/ssr   React 服务器渲染
 
-11、本次版本所包含的特性:
+11、http://localhost:8080/page   React SSR 前后端同构渲染
+
+12、本次版本所包含的特性:
 
       a、前端工程化
    
       b、资源模块化，包括js模块化、css模块化、图片、字体等模块化
 
-      c、ssr  react 服务器端渲染
+      c、SSR  react 服务器端渲染
 
-      d、react isomorphic 前后端同构渲染
+      d、React isomorphic 前后端同构渲染
 
-12、可以在routes/pages中添加路由自行测试。
+13、可以在routes/pages中添加路由自行测试。
 
-13、在src中添加react模块，添加打包入口，使用npm run build 打包，添加模块或路由需要重启服务：npm run start
+14、在src中添加react模块，添加打包入口，使用npm run build 打包，添加模块或路由需要重启服务：npm run start
