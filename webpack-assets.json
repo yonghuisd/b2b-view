@@ -1,0 +1,17 @@
+{
+  "javascript": {
+    "root": "/dev/root.3d40317c.js",
+    "test": "/dev/test.80a8240d.js",
+    "vendor": "/dev/react.bc370fce.js"
+  },
+  "styles": {
+    "vendor": "/dev/css/common.8edc0aac.css"
+  },
+  "assets": {
+    "./src/apps/test/tt.png": "/dev/25b1a4f51d66d8e8e00cb1a4bc7cfe26.png",
+    "./src/apps/test/app.less": {
+      "ss": "app__ss___36CpafFL",
+      "_style": ".app__ss___36CpafFL {\n  color: red;\n  opacity: 0.8;\n  display: flex;\n  background: url(/dev/25b1a4f51d66d8e8e00cb1a4bc7cfe26.png) no-repeat center center;\n}\n.app__ss___36CpafFL > span {\n  color: green;\n}\n"
+    }
+  }
+}
