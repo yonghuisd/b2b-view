@@ -29,4 +29,6 @@
 
       d、react isomorphic 前后端同构渲染
 
-12、可以在routes/pages中添加路由自行测试。在src中添加react模块，使用npm run build 打包，添加模块或路由需要重启服务：npm run start
+12、可以在routes/pages中添加路由自行测试。
+
+13、在src中添加react模块，添加打包入口，使用npm run build 打包，添加模块或路由需要重启服务：npm run start
