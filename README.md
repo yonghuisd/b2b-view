@@ -17,7 +17,7 @@
 
 9、http://localhost:8080/test 模板引擎输出
 
-10、http://localhost:8080/page react 服务器渲染
+10、http://localhost:8080/page       React 服务器渲染
 
 11、本次版本所包含的特性:
 
