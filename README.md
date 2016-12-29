@@ -11,7 +11,7 @@
 
 6、运行npm run build
 
-7、运行npm start,服务启动在8080端口
+7、运行npm run start,服务启动在8080端口
 
 8、http://localhost:8080/ 支持字符串及json输出
 
