@@ -7,7 +7,7 @@ var extractCSS = new ExtractTextPlugin('css/common.[chunkhash:8].css');
 var extractLESS = new ExtractTextPlugin('css/[name].[chunkhash:8].css');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var clean = new CleanWebpackPlugin(["dev"], {
-    root: path.join(__dirname,"../"),
+    root: path.join(__dirname,"./public/"),
     verbose: true,
     dry: false
 });
@@ -42,7 +42,8 @@ module.exports = {
                 test:/\.css$/,
                 loader:extractCSS.extract("style-loader", "css-loader?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:8]",{publicPath:"../"})
             },
-            { test: /\.less$/, loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=2&localIdentName=[name]__[local]___[hash:base64:8]&sourceMap!postcss-loader?browsers=last 2 version!less?outputStyle=expanded&sourceMap=true&sourceMapContents=true') },
+            {test:/\.less$/, loader:extractLESS.extract("style-loader", "css-loader!less-loader")},
+            // { test: /\.less$/, loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=2&localIdentName=[name]__[local]___[hash:base64:8]&sourceMap!postcss-loader?browsers=last 2 version!less?outputStyle=expanded&sourceMap=true&sourceMapContents=true') },
             {
                 test: /\.(eot|woff|svg|ttf|woff2|appcache)(\?|$)/,
                 loader: 'file-loader?name=[name].[ext]'

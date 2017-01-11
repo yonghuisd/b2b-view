@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../components/input/Input.jsx"],"names":["Input"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;AAAA;;;;AACA;;;;;;IAIqBA,K;;;;;;;;;;;kBAAAA,K","file":"Input.js","sourcesContent":["import React from 'react';\r\nimport AInput from 'antd/lib/Input';\r\n\r\n\r\n\r\nexport default class Input extends AInput {}\r\n"]}

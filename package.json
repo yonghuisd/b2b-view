@@ -137,9 +137,14 @@
     "request-promise": "^4.1.1",
     "swig": "^1.4.2",
     "sync-request": "^3.0.1",
-    "uuid": "^2.0.2"
+    "uuid": "^2.0.2",
+    "antd":"^2.6.0",
+    "es5-shim":"^4.5.9",
+    "console-polyfill":"^0.2.0",
+    "jdui":"latest"
   },
   "devDependencies": {
+    "babel-cli": "^6.18.0",
     "babel-eslint": "^5.0.0-beta6",
     "babel-plugin-react-transform": "^2.0.0",
     "babel-plugin-typecheck": "^3.6.0",
@@ -195,7 +200,8 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.0",
     "webpack-dev-middleware": "^1.4.0",
-    "webpack-hot-middleware": "^2.5.0"
+    "webpack-hot-middleware": "^2.5.0",
+    "antd":"^2.6.0"
   },
   "engines": {
     "node": "5.10.0"

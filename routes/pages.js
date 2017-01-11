@@ -36,6 +36,13 @@ router.get('/page', function(req, res, next) {
 	res.send('<!doctype html>\n' +
       ReactDOM.renderToString(<Html assets={webpackIsomorphicTools.assets()} component={component}/>));
 });
+router.get('/cmp', function(req, res, next) {
+	const component = (
+      <Root />
+    );
+	res.send('<!doctype html>\n' +
+      ReactDOM.renderToString(<Html assets={webpackIsomorphicTools.assets()} />));
+});
 module.exports = router;
 // > node-inspector
 // > supervisor --debug-brk debugme.js
