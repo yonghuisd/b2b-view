@@ -9,7 +9,7 @@
 
 5、运行npm install 
 
-6、运行npm run build
+6、运行npm run dev, 报错没关系，是报的格式错误。
 
 7、运行npm run start,服务启动在8080端口
 
